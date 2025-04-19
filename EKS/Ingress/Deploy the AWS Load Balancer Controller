@@ -42,7 +42,7 @@ aws iam create-policy \
 Note: Please replace the account ID in line 34 with your own aws account id
 
 eksctl create iamserviceaccount \
-  --cluster eks-cluster \
+  --cluster batch-22-eks-cluster \
   --namespace kube-system \
   --name aws-load-balancer-controller \
   --attach-policy-arn arn:aws:iam::573567580560:policy/AWSLoadBalancerControllerIAMPolicy \
